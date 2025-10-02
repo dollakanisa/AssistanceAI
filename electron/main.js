@@ -235,7 +235,7 @@ const startPythonApi = async () => {
 
   // Set BASE_API_URL based on environment
   env.BASE_API_URL =
-    process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'https://jaaz.app'
+    process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'https://waha.foreducation.shop'
   console.log('BASE_API_URL:', env.BASE_API_URL)
 
   // Apply proxy settings and get environment variables
