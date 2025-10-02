@@ -2,7 +2,7 @@ import type { LLMConfig, ToolCallFunctionName } from '@/types/types'
 
 // API Configuration
 export const BASE_API_URL =
-  import.meta.env.VITE_JAAZ_BASE_API_URL || 'https://jaaz.app'
+  import.meta.env.VITE_JAAZ_BASE_API_URL || 'https://waha.foreducation.shop'
 
 export const PROVIDER_NAME_MAPPING: {
   [key: string]: { name: string; icon: string }
@@ -52,7 +52,7 @@ export const TOOL_CALL_NAME_MAPPING: { [key in ToolCallFunctionName]: string } =
     finish: 'Finish',
   }
 
-export const LOGO_URL = 'https://jaaz.app/favicon.ico'
+export const LOGO_URL = 'https://waha.foreducation.shop/favicon.ico'
 
 export const DEFAULT_SYSTEM_PROMPT = `You are a professional art design agent. You can write very professional image prompts to generate aesthetically pleasing images that best fulfilling and matching the user's request.
 Step 1. write a design strategy plan. Write in the same language as the user's inital first prompt.

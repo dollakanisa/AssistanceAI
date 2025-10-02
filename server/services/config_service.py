@@ -35,7 +35,7 @@ DEFAULT_PROVIDERS_CONFIG: AppConfig = {
             'anthropic/claude-sonnet-4': {'type': 'text'},
             'anthropic/claude-3.7-sonnet': {'type': 'text'},
         },
-        'url': os.getenv('BASE_API_URL', 'https://jaaz.app').rstrip('/') + '/api/v1/',
+        'url': os.getenv('BASE_API_URL', 'https://waha.foreducation.shop').rstrip('/') + '/api/v1/',
         'api_key': '',
         'max_tokens': 8192,
     },
@@ -100,7 +100,7 @@ class ConfigService:
 
     def _get_jaaz_url(self) -> str:
         """Get the correct jaaz URL"""
-        return os.getenv('BASE_API_URL', 'https://jaaz.app').rstrip('/') + '/api/v1/'
+        return os.getenv('BASE_API_URL', 'https://waha.foreducation.shop').rstrip('/') + '/api/v1/'
 
     async def initialize(self) -> None:
         try:
