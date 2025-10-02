@@ -24,7 +24,7 @@
   },
   "publish": "always",
   "build": {
-    "appId": "com.jaaz.app",
+    "appId": "com.foreducation.waha",
     "productName": "Jaaz",
     "publish": {
       "provider": "github",
